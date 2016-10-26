@@ -1,1 +1,1 @@
-Empty directory to hold your rda files
+Empty directory to hold rda data

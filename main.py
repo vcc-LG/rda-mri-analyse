@@ -108,4 +108,5 @@ if __name__ == '__main__':
     create_database(database_full_path)
 
     for file_name in os.listdir(input_file_path):
-        call_tarquin(input_file_path,file_name,output_file_path,database_full_path)
+        if file_name.endswith(".rda"):
+            call_tarquin(input_file_path,file_name,output_file_path,database_full_path)

@@ -1,0 +1,18 @@
+# Databases #
+#############
+*.db
+
+# Compiled Python #
+###################
+*.pyc
+
+# MRS data #
+############
+*.rda
+
+
+# PyCharm #
+###########
+.idea
+
+
